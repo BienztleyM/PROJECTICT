@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; color: #333; }
+        header { background: linear-gradient(135deg, #1d3557, #e63946); color: white; text-align: center; padding: 40px 20px; }
+        header img.logo { width: 80px; height: 80px; border-radius: 50%; vertical-align: middle; border: 2px solid white; }
+        header img.profile-img { width: 130px; height: 130px; border-radius: 50%; border: 4px solid white; margin-top: 15px; object-fit: cover; }
+        h1 { margin: 10px 0 5px; }       
+        section { max-width: 800px; margin: 30px auto; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+        h2.section-heading { background-color: #1d3557; color: white; text-align: center; padding: 10px; border-radius: 20px; font-size: 1.2rem; margin-top: 0; }      
+        .project-card { border: 1px dashed #e63946; padding: 15px; margin-bottom: 20px; border-radius: 8px; display: flex; gap: 20px; align-items: center; }
+        .project-card img { width: 200px; height: auto; border-radius: 5px; border: 1px solid #ccc; }       
+        .form-group { margin-bottom: 15px; }
+        label { display: block; font-weight: bold; margin-bottom: 5px; color: #1d3557; }
+        input[type="text"], input[type="email"], select, textarea { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+        button[type="submit"] { background-color: #e63946; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; width: 100%; font-size: 1rem; font-weight: bold; }
+        button[type="submit"]:hover { background-color: #c5283d; }     
+        .highlight { color: #e63946; font-weight: bold; }
+        footer { text-align: center; padding: 15px; background-color: #1d3557; color: white; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="logo real.png" alt="Logo" class="logo">
+        </div>
+        <img src="real combined pfp.png" alt="Profile Picture" class="profile-img">
+        <h1>Hello, We are <span style="color: #ffccd5;">Calvin and Bien</span></h1>
+        <p>We are two students that created this portfolio for a school project. Enjoy reading!</p>
+    </header>
+    <section>
+        <h2 class="section-heading">About Us</h2>
+        <p>Hi! We are <span class="highlight">Calvin and Bien</span>, and we are 9th-grade ICT students learning HTML, CSS, and basic programming concepts. We enjoy playing games, playing basketball, and we are Roblox professionals.</p>
+    </section>
+    <section>
+        <h2 class="section-heading">Our Works</h2>
+        <div class="project-card">
+            <div>
+                <img src="CJSPOTIFYARTISTS.png" alt="Project 1 Preview">
+                <p style="text-align: center; font-size: 0.85rem; margin-top: 5px;"><em>My Favorite Spotify Artists</em></p>
+            </div>
+            <div>
+                <ul>
+                    <li>HTML & CSS Projects</li>
+                    <li>Spotify Artists</li>
+                    <li>List, Links and Images</li>
+                    <li><a href="https://open.spotify.com/" target="_blank" class="highlight">View Spotify Website</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="project-card">
+            <div>
+                <img src="CJDRILL2.png" alt="Project 2 Preview">
+                <p style="text-align: center; font-size: 0.85rem; margin-top: 5px;"><em>My Rate a Movie Form</em></p>
+            </div>
+            <div>
+                <ul>
+                    <li>HTML & CSS Projects</li>
+                    <li>HTML Forms</li>
+                    <li>Movie Recommendations</li>
+                    <li><a href="https://www.netflix.com/ph-en/" target="_blank" class="highlight">View Netflix Website</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="project-card">
+            <div>
+                <img src="Screenshot 2026-10-02 224148.png" alt="Project 3 Preview">
+                <p style="text-align: center; font-size: 0.85rem; margin-top: 5px;"><em>My Favorite Spotify Artists</em></p>
+            </div>
+            <div>
+                <ul>
+                    <li>HTML & CSS Projects</li>
+                    <li>Spotify Artists</li>
+                    <li>External Embedded Media</li>
+                    <li><a href="https://open.spotify.com/" target="_blank" class="highlight">View Spotify Website</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="project-card">
+            <div>
+                <img src="Screenshot 2026-10-02 224128.png" alt="Project 4 Preview">
+                <p style="text-align: center; font-size: 0.85rem; margin-top: 5px;"><em>My Rate a Movie Form</em></p>
+            </div>
+            <div>
+                <ul>
+                    <li>HTML & CSS Projects</li>
+                    <li>Lists, Links and Images</li>
+                    <li>Database Feedback Log</li>
+                    <li><a href="https://www.netflix.com/ph-en/" target="_blank" class="highlight">View Netflix Website</a></li>
+                </ul>
+            </div>
+        </div>
+        <h3>Information About Projects</h3>
+        <dl>
+            <dt><span class="highlight">Top Spotify Artists</span></dt>
+            <dd>The works about the top Spotify artists display the music interests of the two students that made this portfolio.</dd>
+            <dt><span class="highlight">Rate a Movie Forms</span></dt>
+            <dd>The works about the rate a movie forms are demonstrating the skills of how the students integrated HTML Forms and input elements.</dd>
+        </dl>
+    </section>
+    <section>
+        <h2 class="section-heading">Contact Us</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com" required>
+            </div>
+            <div class="form-group">
+                <label>How did you find us?</label>
+                <input type="radio" id="facebook" name="source" value="Facebook">
+                <label for="facebook" style="display:inline; font-weight:normal;">Facebook</label>
+                <input type="radio" id="google" name="source" value="Google">
+                <label for="google" style="display:inline; font-weight:normal;">Google</label>
+                <input type="radio" id="friends" name="source" value="Friends">
+                <label for="friends" style="display:inline; font-weight:normal;">Friends</label>
+            </div>
+            <div class="form-group">
+                <label for="interest">Interested In:</label>
+                <select id="interest" name="interest">
+                    <option value="basketball">Basketball</option>
+                    <option value="roblox">Roblox</option>
+                    <option value="minecraft">Minecraft</option>
+                    <option value="none of the above">None of the above</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="feedback">Any Feedback?</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Feedback here..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>2026 Calvin and Bien Corporation. All rights reserved.</p>
+    </footer>
+</body>
+</html>
